@@ -1,0 +1,750 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}   
+.container{
+    text-align: center;
+    padding: 25px;
+    background-color: rgb(57, 55, 55);
+    color: white;
+    font-size: 14px;
+    
+   
+}
+span{
+    margin: 14px;
+    
+}
+
+.shop{
+  color: rgb(110,110,115);
+  font-size: 20px;
+  /* margin-right: 2em; */
+}
+.store-section-list{
+  list-style: none;
+  color: white;
+  text-align: left;
+  margin-left: 11em;
+  font-size: 25px;
+  margin-top: 20px;
+  
+}
+.list-container{
+  min-width: 200px;
+  display: flex;
+}
+.store-section-list1{
+  list-style: none;
+  color: white;
+  text-align: left;
+  font-size: 25px;
+  margin-left: 3em;
+  margin-top: 20px;
+  
+}
+.store-section-list2{
+  list-style: none;
+  color: white;
+  text-align: left;
+  font-size: 25px;
+  margin-left: 3em;
+  margin-top: 20px;
+}
+.shopspecial{
+  font-size: 20px;
+  color: rgb(110,110,115);
+  
+}
+
+.hidden-section{
+  overflow: hidden;
+  height: 0px;
+  opacity: 0;
+  transition: height 0.9s, opacity 0.9s ease-out;
+}
+a {
+ 
+  text-decoration: none;
+  color: inherit;
+  
+ }
+ 
+
+.text-store:hover ~.hidden-store-section{
+  height: 17rem;
+  opacity: 1;
+}
+.text-ipad:hover ~.hidden-ipad-section{
+  height: 17rem;
+  opacity: 1;
+}
+.quicklinks{
+  color: rgb(110,110,115);
+  font-size: 20px;
+  
+}
+.explore{
+  color: rgb(110,110,115);
+  font-size: 20px;
+}
+.mac-section-list{
+  list-style: none;
+  color: white;
+  text-align: left;
+  font-size: 25px;
+  margin-left: 11em;
+  margin-top: 20px;
+}
+.text-mac:hover ~ .hidden-mac-section{
+  height: 17rem;
+  opacity: 1;
+}
+.mac-section-list1{
+  list-style: none;
+  color: white;
+  text-align: left;
+  font-size: 25px;
+  margin-left: 3em;
+  margin-top: 20px;
+}
+.ipad-section-list{
+  list-style: none;
+  color: white;
+  text-align: left;
+  font-size: 25px;
+  margin-left: 11em;
+  margin-top: 20px;
+}
+.ipad-section-list1{
+  list-style: none;
+  color: white;
+  text-align: left;
+  font-size: 25px;
+  margin-left: 3em;
+  margin-top: 20px;
+}
+.ipad-section-list2{
+  list-style: none;
+  color: white;
+  text-align: left;
+  font-size: 25px;
+  margin-left: 3em;
+  margin-top: 20px;
+}
+.shop-mac{
+  color: rgb(110,110,115);
+  font-size: 20px;
+  
+}
+.mac-section-list2{
+  list-style: none;
+  color: white;
+  text-align: left;
+  font-size: 25px;
+  margin-left: 3em;
+  margin-top: 20px;
+}
+.more-mac{
+  color: rgb(110, 110, 115);
+  font-size: 20px;
+}
+
+.link{
+  text-decoration: none;
+  color: inherit;
+}
+#search{
+  width: 1px;
+}
+#applesize{
+  width: 25px;
+}
+.body1{
+    background-color: black;
+}
+.apple{
+    text-align: center;
+}
+.image1{
+    text-align: center;
+}
+.wvd{
+    text-align: center;
+    color: aliceblue;
+    font-size: 40px;
+}
+.text1{
+    color: #f5f5f7;
+    text-align: center;
+    font-size: 21px;
+    margin: 30px;
+    /* background: yellow; */
+}
+#button{
+    margin-bottom: 16px;
+    margin-top: 1em;
+    min-width: 8vw;
+    border-radius: 4em;
+    padding: 11px;
+    background-color: #0071e3;
+    color: #ffffff;
+    text-align: center;
+    font-size: 17px;
+}
+/* body2 */
+.body2{
+    background-color: black;
+    
+}
+.iphonepro{
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    font-size: 40px;
+}
+.titanium{
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+}
+#button2{
+    /* margin: 20px; */
+    min-width: 8vw;
+    border-radius: 21px;
+    padding: 11px;
+    background-color: #0071e3;
+    color: #ffffff;
+    text-align: center;
+    font-size: 17px;
+    margin-top: 2%;
+  
+}
+#button3{
+    min-width: 7vw; 
+    border-radius: 21px;
+    padding: 11px;
+    background-color: black;
+    color: #0071e3;
+    border: 1px groove #0071e3;
+    text-align: center;
+    font-size: 17px;
+    margin-left: 15px;
+    margin-top: 2%; 
+    
+}
+#button3:hover{
+    background-color: #0071e3;
+    color: #ffffff;
+}
+#iphone{
+    width: 63%;
+}
+/* body3 */
+.body3{
+    margin-top: 10px;
+    background-color: black;
+}
+.ipadpro{
+    color: whitesmoke;
+    text-align: center;
+    padding: 5%;
+    font-size: 40px;
+}
+.thin{
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    
+
+}
+#ipad{
+    width: 93%;
+    text-align: center;
+    margin-top: 3%;
+}
+
+
+.body4{
+  display: flex;
+ 
+
+
+}
+#college{
+width: 50vw;
+display: flex;
+/* position: relative; */
+
+
+
+}
+/* .text3,.text4{
+  position: absolute;
+} */
+#student{
+  width: 50vw;
+
+   
+}
+.text3{
+  position: absolute;
+  display: flex;
+  justify-content: baseline;
+
+  align-items: center;
+ 
+  color: white;
+  font-size: 40px;
+
+  /* left: 8em; */
+
+}
+.text4{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  color: white;
+  font-size: 1em;
+  /* top: 7em; */
+   /* top: 15em;
+   font-size: 30px; */
+} 
+.body4{
+  margin-top: 10px;
+  /* with: 50%; */
+  display: flex;
+  /* position: relative; */
+ 
+  
+ 
+  
+}
+.body6{
+  margin-top: 10px;
+  /* with: 50%; */
+  display: flex;
+  /* position: relative; */
+ 
+  
+ 
+  
+}
+
+
+#college{
+  width: 100%;
+  height: 100%;
+  
+}
+.text3{
+  position:absolute;
+  color: white;
+  text-align: center;
+  /* background-color: yellow; */
+  top: 68%;
+  left: 35%;
+  font-size: 40px;
+  font-style: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+#student{
+  width: 100%;
+  height: 100%;
+  margin-left: 10px;
+   
+}
+
+.student{
+  flex: 30%;
+  margin-top: 10px;
+  position: relative;
+ 
+}
+
+.text4{
+  position:absolute;
+  color: white;
+  /* text-align: center; */
+  /* background-color: yellow; */
+  top: 78%;
+  left: 38%;
+ 
+  font-size: 19px;
+  font-style: bold;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+
+.text5{
+  position:absolute;
+  color: white;
+   top: 4%; 
+  left: 33%;   
+  font-size: 33px;
+  font-style: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+.text6{
+  color: rgb(191, 37, 37);
+  position: absolute;
+  top: 12%;
+  left: 39%;
+  font-family: 'Times New Roman', Times, serif;
+
+ 
+}
+.text7{
+  position: absolute;
+  color: white;
+  top: 16%;
+  left: 28%;
+  font-size: 22px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.body4learnmore{
+  position: absolute;
+  /* color: white;
+  background-color: #0071e3; */
+  top: 85%;
+  left: 41%;
+} 
+#button4{
+ color: white;
+ background-color: #0071e3;
+ width: 180%;
+ padding: 10%;
+ border-radius: 21px;
+ height: 40px;
+
+}
+.fucku{
+  position: absolute;
+  top: 25%;
+  left: 28%;
+}
+#button5{
+  color: white;
+  background-color: #0071e3;
+  padding: 10px;
+  width: 120%;
+  border-radius: 21px;
+  height: 40px;
+}  
+.button6{
+  position: absolute;
+  top: 25%;
+  left: 45%;
+
+}
+#button6{
+  color: #0071e3;
+  background-color: black;
+  padding: 10px;
+  width: 150%;
+  border-radius: 21px;
+  height: 40px;
+  border: 1px groove #0071e3;
+  
+
+}
+#button6:hover{
+  background-color: #0071e3;
+  color: #ffffff;
+}
+.body5{
+  display: flex;
+  margin-top: 10px;
+  position: relative;
+}
+.vision{
+  flex: 30%;
+  padding: 5px;
+  /* top: 60%; */
+}
+#vision{
+  width: 100%;
+  top: 10000%;
+}
+#visionpro{
+  position: absolute;
+  top: 74%;
+  left: 37%;
+  color: black;
+  font-size: 35px;
+}
+.era{
+  position: absolute;
+  top: 80%;
+  left: 200px;
+ font-size: 20px;
+}
+#body4learnmore{
+  color: white;
+  background-color: #0071e3;
+  padding: 10px;
+  width: 120%;
+  border-radius: 21px;
+  height: 40px;
+
+}
+.vv4{
+  position: absolute;
+  /* color: white;
+  background-color: #0071e3; */
+  top: 85%;
+  left: 38%;
+
+}
+.buybutton{
+  position: absolute;
+  top: 84.5%;
+  left: 53%;
+}
+#buybutton{
+  
+  /* color: black;
+  background-color: yellow; */
+  width: 98%; 
+  border-radius: 21px;
+  padding: 11px;
+  background-color: black;
+  color: #0071e3;
+  border: 1px groove #0071e3;
+  text-align: center;
+  font-size: 17px;
+  margin-left: 15px;
+  margin-top: 2%; 
+}
+#buybutton:hover{
+  background-color: #0071e3;
+  color: white;
+
+}
+/* .award{
+  flex: 30%;
+  padding: 5px;
+  
+}
+#award{
+  width: 100%;
+  padding-top: 25%;
+  background-color: black;
+  
+  
+} */
+.appledesign{
+  position: absolute;
+  color: white;
+  font-size: 35px;
+  left: 29%;
+ 
+}
+.celeberating{
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  top: 43px;
+  left: 34%;
+}
+.gamedesign{
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  top: 65px;
+  left: 31%;
+}
+.winners{
+  position: absolute ;
+  top: 90px;
+  left: 37%;
+}
+body6
+  .body6{
+    display: flex;
+    margin-top: 10px;
+    position: relative;
+  }
+  .card{
+    position: absolute;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    left: 40%;
+  }
+  .cashback{
+    position: absolute;
+    font-size: 25px;
+    font-weight: 100;
+    top: 35px;
+    left: 25%;
+  }
+  .purchase{
+    position: absolute;
+    font-size: 25px;
+    font-weight: 100;
+    top: 65px;
+    left: 30%;
+  }
+  .body6learnmore{
+    position: absolute;
+    top: 110px;
+    left: 28%;
+   
+    
+  }
+  #body6learnmore{
+    background-color: #0071e3;
+    border-radius: 21px;
+    width: 120px;
+    height: 40px;
+    color: #f5f5f7;
+  }
+  .apply{
+    position: absolute;
+    top: 110px;
+    left: 45%;
+   
+  }
+  #apply{
+    color: #0071e3;
+    background-color: white;
+    border-radius: 21px;
+    width: 120px;
+    height: 40px;
+  }
+  #apply:hover{
+    color: white;
+    background-color: #0071e3;
+    border: groove 1px #0071e3;
+  }
+  .trade{
+    position: absolute;
+    font-size: 35px;    
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    left: 40%;
+  }
+  .credit{
+    position: absolute;
+    font-size: 25px;
+    font-weight: 100;
+    top: 10%;
+    left: 30%;
+  }
+  .higher{
+    position: absolute;
+    font-size: 25px;
+    font-weight: 100;
+    top: 15%;
+    left: 33.5%;
+  }
+  .estimate{
+    position: absolute;
+    top: 25%;
+    left: 40%;
+  }
+  #estimate{
+    color: white;
+    background-color: #0071e3;
+    border-radius: 21px;
+    width: 120px;
+    height: 40px;
+    border: double 1px #0071e3;
+  }
+
+
+
+
+
+.slideimages{
+    width: 100%;
+   
+
+  }
+  .slideimages1{
+    width: 120%;
+  }
+  .slideimages2{
+    margin-top: 15px;
+  }
+  .palmtree{
+    background-color: #ffffff;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 5px;
+    
+
+  }
+  .palmtree img{
+    padding: 5px;
+  }
+.slideimage1{
+    width: 30px;
+    height: 236px;
+}
+#slideimage1{
+    width: 476px;
+    height: 236px;
+}
+#slideimage2{
+    width: 476px;
+    height: 236px;
+}
+#slideimage3{
+    width: 476px;
+    height: 236px;
+}
+#slideimage4{
+    width: 476px;
+    height: 236px;
+}
+.footer{
+    width: 100%;
+    padding-top: 30px;
+    background-color:rgb(245,245,247);
+    
+    
+}
+.para1{
+    margin-left: 25%;
+    margin-right: 25%;
+    border-bottom: solid 1px rgb(59, 58, 58);
+    color: rgb(68,68,69);
+    
+}
+.list{
+   margin-left: 25%;
+   margin-right: 25%;
+   position: relative;
+   display: flex;
+  
+}
+.nobullets{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+.shop{
+    font-weight: bold;
+}
+
+.nobullets1{
+   padding-top: 20px;
+    list-style-type: none;
+    margin: 0;
+}
+.list1{
+  
+}
+@media only screen and (max-width:786px){
+  .store{
+    display: none;
+    /* max-width: 786px; */
+  }
+}
